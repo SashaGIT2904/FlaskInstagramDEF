@@ -1,0 +1,164 @@
+{
+    "config": {
+        "port": 3000,
+        "os": "win32",
+        "editor": {
+            "mode": "extension",
+            "agent": "vscode",
+            "version": "5.0.314"
+        },
+        "dirPath": "./.learn",
+        "configPath": "learn.json",
+        "outputPath": ".learn/dist",
+        "publicPath": "/preview",
+        "publicUrl": "http://localhost:3000",
+        "contact": "https://github.com/learnpack/learnpack/issues/new",
+        "language": "auto",
+        "autoPlay": true,
+        "projectType": "template",
+        "grading": "isolated",
+        "exercisesPath": "./",
+        "webpackTemplate": null,
+        "disableGrading": false,
+        "disabledActions": [],
+        "actions": [],
+        "entries": {
+            "html": "index.html",
+            "vanillajs": "index.js",
+            "react": "app.jsx",
+            "node": "app.js",
+            "python3": "app.py",
+            "java": "app.java"
+        },
+        "suggestions": {
+            "agent": null
+        },
+        "warnings": {},
+        "title": {
+            "en": "Flask REST Hello Template",
+            "es": "Plantilla REST con Flask"
+        },
+        "description": {
+            "en": "A minimal starter template to build REST APIs using Flask. One-click deploy to Heroku and integrated with Gitpod for ease of development.",
+            "es": "Una plantilla inicial mínima para construir APIs REST usando Flask. Despliegue con un clic en Heroku e integrada con Gitpod para facilitar el desarrollo."
+        },
+        "repository": "https://github.com/4GeeksAcademy/flask-rest-hello",
+        "preview": "https://repository-images.githubusercontent.com/176559178/ae453500-78e0-11ea-8037-165e53547738",
+        "difficulty": "beginner",
+        "technologies": [
+            "flask",
+            "python",
+            "api"
+        ],
+        "translations": []
+    },
+    "address": "http://localhost:3000",
+    "currentExercise": null,
+    "exercises": [
+        {
+            "position": 0,
+            "path": "docs",
+            "slug": "docs",
+            "translations": {},
+            "language": null,
+            "entry": null,
+            "title": "docs",
+            "graded": false,
+            "files": [
+                {
+                    "path": "docs/assets",
+                    "name": "assets",
+                    "hidden": true
+                },
+                {
+                    "path": "docs/HELP.md",
+                    "name": "HELP.md",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 1,
+            "path": "migrations",
+            "slug": "migrations",
+            "translations": {
+                "us": "README"
+            },
+            "language": "python3",
+            "entry": null,
+            "title": "migrations",
+            "graded": false,
+            "files": [
+                {
+                    "path": "migrations/alembic.ini",
+                    "name": "alembic.ini",
+                    "hidden": true
+                },
+                {
+                    "path": "migrations/env.py",
+                    "name": "env.py",
+                    "hidden": false
+                },
+                {
+                    "path": "migrations/README",
+                    "name": "README",
+                    "hidden": true
+                },
+                {
+                    "path": "migrations/script.py.mako",
+                    "name": "script.py.mako",
+                    "hidden": true
+                },
+                {
+                    "path": "migrations/versions",
+                    "name": "versions",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 2,
+            "path": "src",
+            "slug": "src",
+            "translations": {},
+            "language": "python3",
+            "entry": "src/app.py",
+            "title": "src",
+            "graded": false,
+            "files": [
+                {
+                    "path": "src/admin.py",
+                    "name": "admin.py",
+                    "hidden": false
+                },
+                {
+                    "path": "src/app.py",
+                    "name": "app.py",
+                    "hidden": false
+                },
+                {
+                    "path": "src/models.py",
+                    "name": "models.py",
+                    "hidden": false
+                },
+                {
+                    "path": "src/utils.py",
+                    "name": "utils.py",
+                    "hidden": false
+                },
+                {
+                    "path": "src/wsgi.py",
+                    "name": "wsgi.py",
+                    "hidden": false
+                }
+            ],
+            "done": false
+        }
+    ],
+    "bugsLink": null,
+    "videoSolutions": false,
+    "localhostOnly": false,
+    "session": 3389580862275154400
+}

@@ -1,0 +1,11 @@
+{
+  "docs": {
+    "us": "docs"
+  },
+  "migrations": {
+    "us": "migrations"
+  },
+  "src": {
+    "us": "src"
+  }
+}
