@@ -73,3 +73,4 @@ class Follower(db.Model):
         back_populates="following", foreign_keys=[user_from_id])
     to_user: Mapped["User"] = relationship(
         back_populates="followers", foreign_keys=[user_to_id])
+#Diagrama en diagram.png
